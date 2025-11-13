@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Alip - Professional Portfolio</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- AOS Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+            <div class="loader-circle"></div>
+        </div>
+    </div>
+
+    <!-- Header & Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/logo.jpg" alt="Nur Alip Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section Home -->
+        <section id="home" class="hero-section d-flex align-items-center">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-lg-7" data-aos="fade-right">
+                        <div class="hero-content">
+                            <div class="badge-container mb-4">
+                                <span class="badge">Digital Marketer</span>
+                                <span class="badge">Creative Designer</span>
+                                <span class="badge">Public Speaker</span>
+                            </div>
+                            <h1 class="display-3 fw-bold mb-4">Hallo, Saya <span class="text-gradient">Nur Alip</span></h1>
+                            <p id="typed-text" class="lead mb-4"></p>
+                            <p class="hero-description mb-5">Saya membantu bisnis dan individu tumbuh melalui strategi digital marketing yang efektif, desain kreatif yang memukau, dan kemampuan public speaking yang persuasif.</p>
+                            <div class="hero-buttons">
+                                <a href="#portfolio" class="btn btn-primary btn-lg me-3">
+                                    <i class="bi bi-grid-3x3-gap-fill me-2"></i>Lihat Portfolio
+                                </a>
+                                <a href="#contact" class="btn btn-outline-light btn-lg">
+                                    <i class="bi bi-chat-dots-fill me-2"></i>Hubungi Saya
+                                </a>
+                            </div>
+                            <div class="social-links mt-5">
+                                <a href="https://www.instagram.com/nuralip_" target="_blank" class="social-link">
+                                    <i class="bi bi-instagram"></i>
+                                </a>
+                                <a href="https://wa.me/6285795939763" target="_blank" class="social-link">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="mailto:ganteng114alip@gmail.com" class="social-link">
+                                    <i class="bi bi-envelope-fill"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5" data-aos="fade-left" data-aos-delay="300">
+                        <div class="hero-image-container">
+                            <div class="hero-image-wrapper">
+                                <img src="img/foto-profil.png" alt="Nur Alip" class="hero-image">
+                                <div class="image-frame"></div>
+                                <div class="floating-element element-1">
+                                    <i class="bi bi-award-fill"></i>
+                                </div>
+                                <div class="floating-element element-2">
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                                <div class="floating-element element-3">
+                                    <i class="bi bi-heart-fill"></i>
+                                </div>
+                            </div>
+                            <div class="experience-badge">
+                                <span class="number">3+</span>
+                                <span class="text">Tahun<br>Pengalaman</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+                <p>Scroll</p>
+            </div>
+        </section>
+
+        <!-- Section About -->
+        <section id="about" class="py-5 section-bg">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                        <div class="about-image">
+                            <div class="image-container">
+                                <img src="img/alip.jpg" alt="Nur Alip" class="main-image">
+                                <div class="image-overlay">
+                                    <div class="stats">
+                                        <div class="stat-item">
+                                            <h4>50+</h4>
+                                            <p>Proyek Selesai</p>
+                                        </div>
+                                        <div class="stat-item">
+                                            <h4>3+</h4>
+                                            <p>Tahun Pengalaman</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" data-aos="fade-left">
+                        <h2 class="section-title mb-4">Tentang Saya</h2>
+                        <p class="mb-4">Saya adalah seorang profesional kreatif yang berbasis di Kuningan. Dengan latar belakang yang kuat dalam digital marketing dan usaha kreatif, saya bersemangat untuk menciptakan solusi yang inovatif dan bermanfaat.</p>
+                        <p class="mb-4">Motto hidup saya, <strong>"Believe your self,"</strong> adalah fondasi dari setiap proyek yang saya kerjakan, didorong oleh keinginan untuk terus belajar dan memberikan dampak positif.</p>
+                        
+                        <div class="skills-section mt-5">
+                            <h4 class="mb-4">Keahlian Saya</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="skill-item mb-3">
+                                        <div class="skill-header">
+                                            <span>Digital Marketing</span>
+                                            <span>90%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="skill-header">
+                                            <span>Desain Kreatif</span>
+                                            <span>85%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="skill-item mb-3">
+                                        <div class="skill-header">
+                                            <span>Public Speaking</span>
+                                            <span>95%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 95%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-item mb-3">
+                                        <div class="skill-header">
+                                            <span>Manajemen Proyek</span>
+                                            <span>80%</span>
+                                        </div>
+                                        <div class="progress">
+                                            <div class="progress-bar" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-info mt-4">
+                            <div class="info-item mb-3">
+                                <i class="bi bi-envelope-fill me-3"></i>
+                                <span>ganteng114alip@gmail.com</span>
+                            </div>
+                            <div class="info-item mb-3">
+                                <i class="bi bi-geo-alt-fill me-3"></i>
+                                <span>Kuningan, Jawa Barat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Services -->
+        <section id="services" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5" data-aos="fade-up">Apa yang Saya Lakukan</h2>
+                <div class="row g-4">
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="service-card text-center p-4 h-100">
+                            <div class="service-icon">
+                                <i class="bi bi-brush"></i>
+                            </div>
+                            <h3>Desain Kreatif</h3>
+                            <p>Membuat desain poster, buket, dan karya handmade yang estetik dan bermakna dengan sentuhan personal yang unik.</p>
+                            <ul class="service-features">
+                                <li>Desain Poster & Banner</li>
+                                <li>Buket & Hadiah Kreatif</li>
+                                <li>Branding Visual</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-card text-center p-4 h-100">
+                            <div class="service-icon">
+                                <i class="bi bi-megaphone"></i>
+                            </div>
+                            <h3>Digital Marketing</h3>
+                            <p>Memasarkan produk dan jasa secara efektif di platform digital untuk mencapai audiens yang lebih luas dan meningkatkan konversi.</p>
+                            <ul class="service-features">
+                                <li>Strategi Media Sosial</li>
+                                <li>Content Marketing</li>
+                                <li>Analisis Performa</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="service-card text-center p-4 h-100">
+                            <div class="service-icon">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3>Public Speaking</h3>
+                            <p>Berpengalaman dalam pidato, ceramah, dan presentasi di berbagai acara tingkat kabupaten hingga nasional dengan pendekatan yang engaging.</p>
+                            <ul class="service-features">
+                                <li>MC & Moderator</li>
+                                <li>Presenter Profesional</li>
+                                <li>Pelatihan Public Speaking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Experience -->
+        <section id="experience" class="py-5 section-bg">
+            <div class="container">
+                <h2 class="section-title text-center mb-5" data-aos="fade-up">Perjalanan Saya</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - Sekarang</span>
+                            <h3>Pemilik, Blooming Memories</h3>
+                            <p>Mendirikan dan mengelola usaha di bidang buket bunga dan handmade, fokus pada pemasaran online dan kepuasan pelanggan. Berhasil meningkatkan penjualan sebesar 200% dalam 1 tahun pertama.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2022</span>
+                            <h3>Pengalaman PKL & Kerja</h3>
+                            <p>Bekerja di usaha fotokopi dan menjalani Praktik Kerja Lapangan di industri kreatif untuk menambah wawasan dan keterampilan dalam manajemen bisnis dan pelayanan pelanggan.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2019 - 2022</span>
+                            <h3>Masa Sekolah & Prestasi</h3>
+                            <p>Aktif di OSIS, Pramuka (meraih Garuda), dan organisasi remaja islam. Meraih berbagai juara dalam lomba seni, ceramah, dan akademik di tingkat regional dan nasional.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Portfolio -->
+        <section id="portfolio" class="py-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5" data-aos="fade-up">Portfolio Saya</h2>
+                <div class="row g-4">
+                    <div class="col-md-4" data-aos="flip-left" data-aos-delay="100">
+                        <div class="portfolio-item position-relative overflow-hidden rounded shadow">
+                            <img src="img/buket.JPG" alt="Project 1" class="img-fluid">
+                            <div class="portfolio-overlay d-flex flex-column justify-content-end align-items-center">
+                                <h4>Blooming Memories</h4>
+                                <p>Branding & Digital Marketing</p>
+                                <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+                        <div class="portfolio-item position-relative overflow-hidden rounded shadow">
+                            <img src="img/b.jpeg" alt="Project 2" class="img-fluid">
+                            <div class="portfolio-overlay d-flex flex-column justify-content-end align-items-center">
+                                <h4>Poster Mother's Day</h4>
+                                <p>Desain Grafis</p>
+                                <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="flip-left" data-aos-delay="300">
+                        <div class="portfolio-item position-relative overflow-hidden rounded shadow">
+                            <img src="img/a.JPG" alt="Project 3" class="img-fluid">
+                            <div class="portfolio-overlay d-flex flex-column justify-content-end align-items-center">
+                                <h4>Dokumentasi Kegiatan</h4>
+                                <p>Fotografi & Editing</p>
+                                <a href="#"><i class="bi bi-arrow-right-short"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="py-5 section-bg">
+            <div class="container">
+                <h2 class="section-title text-center mb-5" data-aos="fade-up">Mari Terhubung</h2>
+                <div class="row">
+                    <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                        <h3 class="mb-4">Ayo Berkolaborasi</h3>
+                        <p class="mb-4">Saya selalu terbuka untuk diskusi tentang proyek baru, ide kreatif, atau peluang untuk berkolaborasi. Jangan ragu untuk menghubungi saya!</p>
+                        <div class="contact-details">
+                            <div class="contact-item d-flex align-items-center mb-3">
+                                <i class="bi bi-envelope-fill me-3"></i>
+                                <a href="mailto:ganteng114alip@gmail.com">ganteng114alip@gmail.com</a>
+                            </div>
+                            <div class="contact-item d-flex align-items-center mb-3">
+                                <i class="bi bi-whatsapp me-3"></i>
+                                <a href="https://wa.me/6285795939763" target="_blank">+62 857-9593-9763</a>
+                            </div>
+                            <div class="contact-item d-flex align-items-center mb-3">
+                                <i class="bi bi-instagram me-3"></i>
+                                <a href="https://www.instagram.com/nuralip_" target="_blank">@nuralip_</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <form class="contact-form p-4 rounded shadow">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="contactName" placeholder="Nama Lengkap" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="contactEmail" placeholder="Email Anda" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="contactMessage" placeholder="Pesan Anda" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="bi bi-whatsapp me-2"></i>Kirim Pesan
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer py-4 text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Nur Alip. Dibuat dengan <i class="bi bi-heart-fill text-danger"></i> dan dedikasi.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Library Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
